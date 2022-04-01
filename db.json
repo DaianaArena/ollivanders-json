@@ -1,112 +1,92 @@
 {
-   "proyects": [
+   "products":[
       {
-         "nombre":"Coffee Shop",
-         "descripcion":"Landing page de una tienda de café",
-         "imagen":"images/projects/coffee_pic.png",
-         "repo":"https://github.com/DaianaArena/coffee-shop",
-         "live": "https://daianaarena.github.io/coffee-shop/",
-         "tecnologias":[
-            "Javascript",
-            "CSS3",
-            "HTML5"
-         ]
+         "id":1,
+         "name":"Varita de Narcisa Malfoy",
+         "description":"La varita de Narcisa Malfoy está compuesta por materiales desconocidos. Narcisa probablemente la compró alrededor de 1966 cuando tenía once años de edad en la Tienda de Varitas Ollivander en el Callejón Diagon la primera vez que asistió al Colegio Hogwarts de Magia y Hechicería.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/PLATFORM-NARCISSA-MALFOY-WAND_1_grande.png?v=1636369021",
+         "house":"Slytherin",
+         "price":"1032"
       },
       {
-         "nombre":"Price Component",
-         "descripcion":"Componente realizado con flexbox para mostrar un precio",
-         "imagen":"images/projects/price_pic.png",
-         "repo":"https://github.com/DaianaArena/Single-price-component",
-         "live": "https://daianaarena.github.io/Single-price-component/",
-         "tecnologias":[
-            "CSS3",
-            "HTML5"
-         ]
+         "id":2,
+         "name":"Varita de Fred Weasley",
+         "description":"La Varita de Fred Weasley había sido comprada en 1989, si se compró cuando tenía once años. A pesar de que muy probablemente fue comprada de segunda mano, como muchas de las posesiones de la Familia Weasley, la madera y el núcleo de la varita de Fred Weasley es desconocida.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/fred1_grande.png?v=1641314232",
+         "house":"griffindor",
+         "price":"1035"
       },
       {
-         "nombre":"Testimonials",
-         "descripcion":"Testimonials responsive grid challenge de front-end mentor.",
-         "imagen":"images/projects/testimonials_pic.png",
-         "repo":"https://github.com/DaianaArena/testimonials-grid",
-         "live": "https://daianaarena.github.io/testimonials-grid/",
-         "tecnologias":[
-            "CSS3",
-            "HTML5"
-         ]
+         "id":3,
+         "name":"Varita de Draco Malfoy ",
+         "description":"La varita de Draco Malfoy tenía 25 cm. de largo, hecha de madera de espino, y tenía un núcleo de pelo de unicornio. La varita fue fabricada por Garrick Ollivander y fue descrita por él como bastante elástica.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/PLATFORM-DRACO-MALFOY-WAND_1_grande.png?v=1636364272",
+         "house":"Slytherin",
+         "price":"1050"
       },
       {
-         "nombre":"Pokedex",
-         "descripcion":"Pokedex app realizada con API.",
-         "imagen":"images/projects/pokedex_pic.png",
-         "repo":"https://github.com/DaianaArena/pokedex-v2",
-         "live": "https://daianaarena.github.io/pokedex-v2/",
-         "tecnologias":[
-            "API REST",
-            "Javascript",
-            "CSS3",
-            "HTML5"
-         ]
+         "id":4,
+         "name":"Varita de Neville Longbottom",
+         "description":"La primera varita de Neville Longbottom fue heredada de su padre, Frank Longbottom, ya que era incapaz de usarla. Su longitud, núcleo y madera y son desconocidos. Neville utiliza esta varita de 1991 a junio de 1996, cuando fue destruida por el Mortífago Antonin Dolohov durante la Batalla del Departamento de Misterios, junto con la nariz de Neville. Neville utiliza la varita de Hermione Granger (ya que esta estaba petrificada) el resto de la batalla. Neville pronto adquirió una nueva varita de Garrick Ollivander",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/Neville1_Product_grande.png?v=1639124169",
+         "house":"griffindor",
+         "price":"1050"
       },
       {
-         "nombre":"Memoji",
-         "descripcion":"Memo-test de Emojis con distintos niveles y modos de juego",
-         "imagen":"images/projects/memoji_pic.png",
-         "repo":"https://github.com/DaianaArena/memoji-test",
-         "live": "https://daianaarena.github.io/memoji-test/",
-         "tecnologias":[
-            "Javascript",
-            "CSS3",
-            "HTML5"
-         ]
+         "id":5,
+         "name":"Varita de Sirius Black ",
+         "description":"La varita de Sirius Black estaba hecha de roble, 28 cm, con núcleo de fibra de corazón de dragón. Puede que haya sido fabricada por Garrick Ollivander. Sirius Black pudo haber comprado esta varita en Ollivander a los once años al precio de siete galeones. Sirius la usó durante toda su estancia en Hogwarts hasta el momento en que murió en el departamento de misterios. Lo que le haya pasado a la varita luego de su muerte es desconocido.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/siriusblack1_grande.png?v=1641304045",
+         "house":"griffindor",
+         "price":"1055"
       },
       {
-         "nombre":"React Simple Card",
-         "descripcion":"Componente simple creado en React",
-         "imagen":"images/projects/react_card_pic.png",
-         "repo":"https://github.com/DaianaArena/react-card",
-         "live": "https://react-card-kabvhfcd0-daianaarena.vercel.app/",
-         "tecnologias":[
-            "React",
-            "Bootstrap",
-            "HTML5"
-         ]
+         "id":6,
+         "name":"Varita de Harry Potter",
+         "description":"La varita de Harry Potter mide veintiocho centímetros, y está hecha de acebo, con una pluma de fénix en su centro. Ésta fue donada por Fawkes, mascota de Albus Dumbledore. También la varita de Tom Sorvolo Ryddle alias Lord Voldemort posee una pluma del mismo fénix como núcleo, y se dice que Fawkes solo tenia una pluma más por lo que ambas son gemelas. Es descrita como bonita y flexible",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/1230211-1_grande.png?v=1626866265",
+         "house":"griffindor",
+         "price":"1500"
       },
       {
-         "nombre":"AirClone",
-         "descripcion":"Clon de la web de AirBnB experiences.",
-         "imagen":"images/projects/airbnb_clone_pic.png",
-         "repo":"https://github.com/DaianaArena/airbnb-experiences-clone",
-         "live": "https://airbnb-experiences-clone-nu.vercel.app/",
-         "tecnologias":[
-            "React",
-            "CSS3",
-            "HTML5"
-         ]
+         "id":7,
+         "name":"Varita de Tom Ryddle",
+         "description":"La varita de Tom Ryddle medía 34 cm y cuarto de largo y pertenecía a Tom Ryddle. La varita estaba hecha de tejo, con un núcleo de pluma de fénix. Fue fabricada por Garrick Ollivander y era la hermana o gemela de la varita de Harry Potter ya que ambas compartían plumas de la misma ave.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/Voldemort1_Product_grande.png?v=1639127048 ",
+         "house":"Slytherin",
+         "price":"1500"
       },
       {
-         "nombre":"Travel Journal",
-         "descripcion":"Responsive travel journal challenge de Scrimba.",
-         "imagen":"images/projects/travel_journal_pic.png",
-         "repo":"https://github.com/DaianaArena/travel-journal",
-         "live": "https://travel-journal-sigma.vercel.app/",
-         "tecnologias":[
-            "React",
-            "Bootstrap",
-            "SaSS",
-            "HTML5"
-         ]
+         "id":8,
+         "name":"Varita de Cho Chang",
+         "description":" El núcleo, madera, flexibilidad y longitud son desconocidos.Como la mayoría de magos y brujas en Gran Bretaña, la adquirió probablemente a la edad de once años, en la tienda de Garrick Ollivander antes de comenzar su educación en el Colegio Hogwarts de Magia y Hechicería en 1990.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/1272009-1_grande.png?v=1614677889",
+         "house":"Ravenclaw",
+         "price":"1050"
       },
       {
-         "nombre":"Meme Generator",
-         "descripcion":"Responsive meme generator web con API.",
-         "imagen":"images/projects/meme_generator_pic.png",
-         "repo":"https://github.com/DaianaArena/meme-generator",
-         "live": null,
-         "tecnologias":[
-            "React",
-            "CSS3",
-            "HTML5"
-         ]
+         "id":9,
+         "name":"Varita de Newton Scamander",
+         "description":"La varita de Newton Scamander era de longitud desconocida, hecha de madera de fresno, y contenía elementos de núcleo hueso, junto con una concha que se colocaba en el mango de la varita. Estaba compuesta de arañazos, muecas y golpes producto de sus aventuras.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/1272009-1_grande.png?v=1614677889",
+         "house":"Hufflepuff",
+         "price":"1500"
+      },
+      {
+         "id":10,
+         "name":"Varita de Luna Lovegood",
+         "description":"La primera varita de Luna Lovegood tenía longitud, madera y material de núcleo desconocidos. Luna presumiblemente lo obtuvo en 1992, cuando tenía once años de edad, probablemente en la Tienda de Varitas Ollivanders, y la utilizó hasta la mitad de su sexto año en el Colegio Hogwarts de Magia y Hechiceria. Ella a menudo la colocaba detrás de su oreja izquierda para su custodia.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/Luna1_Product_grande.png?v=1639128726",
+         "house":"Ravenclaw",
+         "price":"1050"
+      },
+      {
+         "id":11,
+         "name":"Varita de Cedric Diggory",
+         "description":"La varita de Cedric Diggory estaba hecha de fresno, con núcleo de crín de unicornio y mide 20.8 cm. Esta fue comprada por Cedric en la tienda de Varitas Ollivanders antes del 1 de septiembre de 1989 antes de iniciar su primer año en el Colegio Hogwarts de Magia y Hechicería a la edad de once años.",
+         "image":"https://cdn.shopify.com/s/files/1/0514/6332/3817/products/1245262-1_grande.png?v=1621857147",
+         "house":"Hufflepuff",
+         "price":"1050"
       }
    ]
 }
